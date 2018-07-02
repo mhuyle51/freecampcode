@@ -3,9 +3,6 @@
     margin: 0;
 }
 #main {
-    position: relative;
-    max-width: 1366px;
-    width: 98%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: center;
     background-color: #EEEEEE;
@@ -24,7 +21,26 @@
     margin: 0 .5em;
 }
 #image {
-    width: 80%;
+    max-width: 1000px;
+    width: 100%;
     margin: auto;
     display: block;
+}
+#img-caption {
+    padding: 20px;
+}
+#tribute-info ul{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+h3 {
+    padding: 40px 0 20px 0;
+}
+li {
+    padding: 5px;
+}
+blockquote {
+    margin: 20px 50px;    
 }
